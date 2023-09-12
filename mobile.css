@@ -1,0 +1,19 @@
+@media(max-width: 600px){
+    .wrapper{
+        max-width: 500px;
+        width: 100%;
+    }
+    #new-task-input{
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    header h1{
+        text-align: left;
+        font-size: 2.25rem;
+    }
+}
+
+
+
+
