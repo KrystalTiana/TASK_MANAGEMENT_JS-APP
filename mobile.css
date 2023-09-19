@@ -62,11 +62,20 @@ body{
 }
 .wrapper{
     margin: auto;
-    max-width: 610px;
+    max-width: 580px;
     width: 100%;
     padding: 20px;
 }
+header{
+    padding: 1rem;
+    max-width: 700px;
+    width: 100%;
+}
 
+main{
+    max-width: 700px;
+    width: 100%;
+}
 #new-task-form{
     display: block;
 }
