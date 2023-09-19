@@ -20,7 +20,8 @@ body{
     flex-direction: column;
     justify-content:center;
     min-height: 100vh;
-    background-image: url(img/journals.jpg);
+    background-image: url(img/beauty.jpg);
+    background-size: cover;
     backdrop-filter: blur(5px);
     
 }
@@ -128,6 +129,7 @@ main{
 #tasks .task .content{
     flex: 1 1 0%;
 }
+
 #tasks .task .content .text{
     color: var(--darkest);
     font-size: 1.125rem;
@@ -138,6 +140,7 @@ main{
 
 #tasks .task .content .text:not(:read-only){
     color: var(--purple);
+    text-decoration: line-through;
 }
 
 #tasks .task .actions{
