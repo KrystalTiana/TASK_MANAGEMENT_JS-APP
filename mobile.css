@@ -62,7 +62,7 @@ body{
 }
 .wrapper{
     margin: auto;
-    min-width: 600px;
+    max-width: 600px;
     width: 100%;
     padding: 20px;
 }
@@ -84,9 +84,9 @@ main{
 }
 #new-task-input{
     font-size: 1.2rem;
-    margin-right: 0.8rem;
-    padding: 0.5rem;
-    width: 77%;
+    margin-right: 0.9rem;
+    padding: 0.7rem;
+    width: 71%;
 }
 
 #new-task-submit{
