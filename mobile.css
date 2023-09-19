@@ -61,9 +61,10 @@ body{
     min-height: 100vh;
 }
 .wrapper{
-    max-width: 590px;
+    margin: auto;
+    max-width: 600px;
     width: 100%;
-    padding-right: 22px;
+    padding-right: 20px;
 }
 
 #new-task-form{
