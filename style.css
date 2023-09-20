@@ -23,7 +23,6 @@ body{
     background-image: url(img/beauty.jpg);
     background-size: cover;
     backdrop-filter: blur(5px);
-    
 }
 
 .wrapper{
@@ -36,7 +35,6 @@ body{
 }
 
 header{
-    padding: 2rem 1rem;
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
@@ -148,8 +146,7 @@ main{
     margin: 0 -0.5rem;
 }
 
-#tasks .actions button,
-.remove{
+#tasks .actions button{
     cursor: pointer;
     margin: 0 0.5rem;
     font-size: 1.125rem;
