@@ -70,6 +70,7 @@ input, button{
     margin-right: 1rem;
     color: var(--darkest);
     font-size: 1.25rem;
+    margin-bottom: 1.2rem;
 }
 
 #new-task-input::placeholder{
@@ -103,16 +104,16 @@ main{
 }
 
 .task-list{
-    padding: 1rem;
+    padding: 0rem;
 }
 
 .task-list h2{
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: bold;
     background-image: linear-gradient(to right, var(--darkest), var(--darkest));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
 
 #tasks .task{
