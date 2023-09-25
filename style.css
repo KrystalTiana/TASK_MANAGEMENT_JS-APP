@@ -4,8 +4,8 @@
     --darkest:#111827;
     --gray:#6b7280;
     --light:#eee;
-    --pink: #ec4899;
-    --purple:#8b5cf6;
+    --beige: #e0a96d;
+    --tan:#b4a284;
 }
 
 *{
@@ -29,7 +29,7 @@ body{
     margin: auto;
     max-width: 580px;
     width: 100%;
-    background-image: linear-gradient(to top, var(--pink), var(--purple), var(--purple), var(--pink));
+    background-image: linear-gradient(to top, var(--beige), var(--tan), var(--beige), var(--tan));
     border-radius: 8px;
     padding: 25px;
 }
@@ -165,7 +165,7 @@ main{
 }
 
 .task .actions .edit{
-    background-image: linear-gradient(to right, var(--purple), var(--purple),
+    background-image: linear-gradient(to left, var(--tan),
     var(--darkest), var(--darkest));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -178,7 +178,7 @@ main{
 
 footer p{
     color: var(--darkest);
-    font-weight: 500;
+    font-weight: bold;
     text-transform: uppercase;
     text-align: center;
 }
